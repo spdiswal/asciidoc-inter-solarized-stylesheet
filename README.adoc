@@ -1,0 +1,438 @@
+= Document Title
+
+== Text Formatting
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor **incididunt** ut labore et dolore _magna aliqua_.
+Tincidunt eget nullam non nisi.
+Sed libero enim sed faucibus turpis. [.line-through]#Tristique sollicitudin nibh sit amet.#
+
+[.text-center]
+Sollicitudin tempor id eu nisl nunc.
+
+Sagittis eu volutpat odio #facilisis# mauris sit amet [.underline]#massa vitae#.
+Massa eget egestas purus viverra accumsan.
+Eu scelerisque felis imperdiet proin.
+Aliquam faucibus purus in massa tempor nec feugiat.
+Mauris a diam maecenas sed enim ut sem viverra: https://asciidoctor.org
+
+https://discuss.asciidoctor.org[Discuss Asciidoctor]
+
+Malesuada [.overline]#pellentesque# elit eget gravida.
+Bibendum neque egestas `congue quisque`.
+Morbi tristique senectus et netus et malesuada fames.
+
+"`Well the H~2~O formula written on their whiteboard could be part of a shopping list, but I don't think the local bodega sells E=mc^2^,`" Lazarus replied.
+
+stem:[sqrt(4) = 2]
+
+Water (stem:[H_2O]) is a critical component.
+
+A matrix can be written as stem:[[[a,b\],[c,d\]\]((n),(k))].
+
+== Lists
+Amet mattis vulputate enim nulla aliquet porttitor lacus luctus accumsan.
+In dictum non consectetur a erat nam at.
+Nisi scelerisque eu ultrices vitae.
+
+.Kizmet's Favorite Authors
+* Edgar Allan Poe
+
+* Sheri S. Tepper
+* Bill Bryson
+
+Eget gravida cum sociis natoque penatibus et.
+Vulputate odio ut enim blandit volutpat.
+Odio facilisis mauris sit amet massa vitae.
+
+.Possible DefOps manual locations
+* West wood maze
+** Maze heart
+*** Reflection pool
+** Secret exit
+
+* Untracked file in git repository
+
+'''
+
+[square]
+* one
+
+* two
+* three
+
+Convallis a cras semper auctor neque vitae.
+In nibh mauris cursus mattis molestie a iaculis at.
+Eget dolor morbi non arcu.
+
+. Protons
+. Electrons
+. Neutrons
+
+Tortor at risus viverra adipiscing at in tellus integer.
+
+. Step 1
+. Step 2
+.. Step 2a
+.. Step 2b
+. Step 3
+
+Consectetur purus ut faucibus pulvinar elementum integer.
+Adipiscing diam donec adipiscing tristique risus nec.
+
+* [*] checked
+* [x] also checked
+* [ ] not checked
+* normal list item
+
+Viverra justo nec ultrices dui sapien eget mi.
+Pharetra magna ac placerat vestibulum lectus.
+Non odio euismod lacinia at quis risus sed vulputate.
+
+CPU:: The brain of the computer.
+Hard drive:: Permanent storage for operating system and/or user files.
+RAM:: Temporarily stores information the CPU uses during operation.
+Keyboard:: Used to enter text or control items on the screen.
+Mouse:: Used to point to and select items on your computer screen.
+Monitor:: Displays information in visual form using text and graphics.
+
+Dolor purus non enim praesent elementum facilisis.
+Aliquam faucibus purus in massa tempor.
+Convallis tellus id interdum velit laoreet id donec.
+
+[horizontal]
+CPU:: The brain of the computer.
+Hard drive:: Permanent storage for operating system and/or user files.
+RAM:: Temporarily stores information the CPU uses during operation.
+
+Enim nec dui nunc mattis enim.
+Placerat in egestas erat imperdiet sed euismod nisi porta.
+Nibh tortor id aliquet lectus proin nibh.
+Elementum sagittis vitae et leo duis.
+Volutpat ac tincidunt vitae semper quis lectus nulla.
+Proin libero nunc consequat interdum varius sit amet mattis.
+
+Operating Systems::
+Linux:::
+. Fedora
+* Desktop
+. Ubuntu
+* Desktop
+* Server
+BSD:::
+. FreeBSD
+. NetBSD
+
+Cloud Providers::
+PaaS:::
+. OpenShift
+. CloudBees
+IaaS:::
+. Amazon EC2
+. Rackspace
+
+Rhoncus aenean vel elit scelerisque mauris pellentesque.
+Tempor orci dapibus ultrices in iaculis nunc sed augue lacus.
+Consequat semper viverra nam libero justo laoreet sit amet.
+
+== Images
+Aliquam vestibulum morbi blandit cursus risus at ultrices.
+Nibh ipsum consequat nisl vel pretium lectus quam id leo.
+Nunc sed id semper risus in.
+
+//image::sunset.jpg[A sunset]
+
+.A mountain sunset
+image::sunset.jpg[Sunset]
+
+Nibh sit amet commodo nulla.
+Quis viverra nibh cras pulvinar mattis nunc sed blandit libero.
+Mi bibendum neque egestas congue quisque.
+Quis imperdiet massa tincidunt nunc pulvinar sapien.
+Erat velit scelerisque in dictum non consectetur a.
+
+== Footnotes
+The hail-and-rainbow protocol can be initiated at five levels:
+
+. doublefootnote:[The double hail-and-rainbow level makes my toes tingle.]
+. tertiary
+. supernumerary
+. supermassive
+. apocalyptic
+
+A bold statement!footnote:disclaimer[Opinions are my own.]
+
+Another outrageous statement.footnote:disclaimer[]
+
+== Admonitions
+Nisi porta lorem mollis aliquam ut porttitor leo a diam.
+Ac auctor augue mauris augue neque.
+Ultricies mi eget mauris pharetra et ultrices neque ornare.
+
+NOTE: Rhoncus aenean vel elit scelerisque.
+
+TIP: Tincidunt id aliquet risus feugiat.
+
+[IMPORTANT]
+.Feeding the Werewolves
+====
+While werewolves are hardy community members, keep in mind the following dietary concerns:
+
+. They are allergic to cinnamon.
+. More than two glasses of orange juice in 24 hours makes them howl in harmony with alarms and sirens.
+. Celery makes them sad.
+====
+
+CAUTION: Vel pharetra vel turpis nunc eget.
+Ac turpis egestas sed tempus urna.
+
+WARNING: Wolpertingers are known to nest in server racks.
+Enter at your own risk.
+
+Lacus sed turpis tincidunt id aliquet risus.
+Lacus viverra vitae congue eu consequat ac felis.
+Faucibus ornare suspendisse sed nisi lacus sed viverra.
+
+== Blocks
+
+=== Sidebars
+Eget egestas purus viverra accumsan.
+Ipsum faucibus vitae aliquet nec ullamcorper.
+Odio pellentesque diam volutpat commodo.
+
+[sidebar]
+Sidebars are used to visually separate auxiliary bits of content that supplement the main text.
+
+Amet est placerat in egestas erat imperdiet sed.
+Elementum nisi quis eleifend quam.
+
+.Optional Title
+****
+Sidebars are used to visually separate auxiliary bits of content that supplement the main text.
+
+TIP: They can contain any type of content.
+
+Nunc mi ipsum faucibus vitae aliquet nec ullamcorper. Cras sed felis eget velit aliquet sagittis id consectetur purus.
+
+.Source code block in a sidebar
+[source,js]
+----
+const greeting = "Hello, World!"
+console.log(greeting)
+----
+
+Magna etiam tempor orci eu lobortis elementum nibh tellus molestie. Mattis pellentesque id nibh tortor id aliquet. Ac placerat vestibulum lectus mauris ultrices eros in cursus turpis.
+
+[quote,Walter White]
+Say my name!
+
+Donec ultrices tincidunt arcu non sodales neque sodales ut. Mattis enim ut tellus elementum sagittis vitae et leo. Augue interdum velit euismod in pellentesque.
+
+[verse,Kim Larsen,Jutlandia]
+____
+Hey, ho! For Jutlandia!
+____
+
+Lacinia quis vel eros donec ac odio. Viverra maecenas accumsan lacus vel. Sed tempus urna et pharetra pharetra. Accumsan sit amet nulla facilisi morbi tempus iaculis urna.
+
+|===
+|Header 1 |Header 2
+
+|Column 1, row 1
+|Column 2, row 1
+
+|Column 1, row 2
+|Column 2, row 2
+
+|Column 1, row 3
+|Column 2, row 3
+|===
+
+Consequat nisl vel pretium lectus quam id leo. Tristique senectus et netus et malesuada fames ac turpis. Dolor sed viverra ipsum nunc aliquet bibendum enim.
+
+Nisi porta lorem mollis aliquam ut porttitor. Rutrum quisque non tellus orci ac.
+****
+
+=== Example
+
+Nulla porttitor massa id neque aliquam vestibulum morbi blandit.
+Elit ut aliquam purus sit amet.
+
+.Onomatopoeia
+====
+The book hit the floor with a *thud*.
+
+He could hear doves *cooing* in the pine trees`' branches.
+====
+
+=== Blockquotes
+Laoreet sit amet cursus sit amet dictum sit amet justo.
+Consectetur lorem donec massa sapien faucibus et molestie ac feugiat.
+Tincidunt arcu non sodales neque sodales ut.
+Interdum consectetur libero id faucibus nisl.
+Cras tincidunt lobortis feugiat vivamus at.
+
+.After landing the cloaked Klingon bird of prey in Golden Gate park:
+[quote,Captain James T. Kirk,Star Trek IV: The Voyage Home]
+Everybody remember where we parked.
+
+Vitae elementum curabitur vitae nunc sed.
+Laoreet id donec ultrices tincidunt arcu non sodales neque.
+Auctor eu augue ut lectus arcu bibendum at varius.
+Mattis vulputate enim nulla aliquet.
+
+[quote,Monty Python and the Holy Grail]
+____
+Dennis: Come and see the violence inherent in the system.
+Help!
+Help!
+I'm being repressed!
+
+King Arthur: Bloody peasant!
+
+Dennis: Oh, what a giveaway!
+Did you hear that?
+Did you hear that, eh?
+That's what I'm on about!
+Did you see him repressing me?
+You saw him, Didn't you?
+____
+
+=== Verse
+Diam quam nulla porttitor massa id neque aliquam vestibulum.
+In mollis nunc sed id semper.
+Eget arcu dictum varius duis.
+
+.The title of this fancy verse block.
+[verse,Carl Sandburg,Fog]
+____
+The fog comes
+on little cat feet.
+
+It sits looking
+over harbor and city
+on silent haunches
+and then moves on.
+____
+
+=== Source Code
+
+.The title of this fancy source code block.
+[source,html]
+----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>The Age Strategy</title>
+</head>
+<body>
+    <!-- This is a comment. -->
+    <p>Age is an issue of mind over matter.</p>
+    <p>If you don't mind, it doesn't matter.</p>
+</body>
+</html>
+----
+
+=== Listing
+Sed vulputate mi sit amet mauris commodo.
+Mus mauris vitae ultricies leo integer malesuada nunc.
+Duis ultricies lacus sed turpis tincidunt id aliquet risus.
+
+.The title of this fancy listing block.
+[listing]
+This is an example of a paragraph assigned the `listing` style in an attribute list.
+Notice that the monospace marks are preserved in the output.
+
+Vitae turpis massa sed elementum tempus egestas sed sed risus.
+Felis donec et odio pellentesque diam volutpat commodo sed.
+
+=== Literal
+Magna fermentum iaculis eu non.
+Non quam lacus suspendisse faucibus interdum posuere.
+In fermentum et sollicitudin ac.
+
+.The title of this fancy literal block.
+....
+Kismet: Where is the *defensive operations manual*?
+
+Computer: Calculating ...
+Can not locate object.
+You are not authorized to know it exists.
+
+Kismet: Did the werewolves tell you to say that?
+
+Computer: Calculating ...
+....
+
+== Callouts
+Nunc faucibus a pellentesque sit amet porttitor.
+Interdum varius sit amet mattis vulputate enim nulla aliquet porttitor.
+Quis commodo odio aenean sed adipiscing diam donec adipiscing.
+
+----
+line of code // <1>
+line of code # <2>
+line of code ;; <3>
+line of code <!--4-->
+----
+
+<1> A callout behind a line comment for C-style languages.
+<2> A callout behind a line comment for Ruby, Python, Perl, etc.
+<3> A callout behind a line comment for Clojure.
+<4> A callout behind a line comment for XML or SGML languages like HTML.
+
+In dictum non consectetur a erat nam at lectus urna.
+Lectus arcu bibendum at varius vel pharetra vel turpis nunc.
+
+== Tables
+Enim nunc faucibus a pellentesque sit amet porttitor eget.
+Orci dapibus ultrices in iaculis nunc sed augue lacus.
+
+.The title of this fancy table.
+[cols="1,1"]
+|===
+|Cell in column 1, header row |Cell in column 2, header row
+
+|Cell in column 1, row 2
+|Cell in column 2, row 2
+
+|Cell in column 1, row 3
+|Cell in column 2, row 3
+
+|Cell in column 1, row 4
+|Cell in column 2, row 4
+|===
+
+Donec pretium vulputate sapien nec sagittis aliquam.
+Habitasse platea dictumst vestibulum rhoncus.
+Purus faucibus ornare suspendisse sed nisi lacus.
+
+=== Keyboard
+Quis commodo odio aenean sed adipiscing diam donec adipiscing tristique.
+In cursus turpis massa tincidunt dui ut ornare lectus sit.
+A diam maecenas sed enim ut sem viverra aliquet eget.
+Ultrices gravida dictum fusce ut placerat orci.
+
+|===
+|Shortcut |Purpose
+
+|kbd:[F11]
+|Toggle fullscreen
+
+|kbd:[Ctrl+T]
+|Open a new tab
+
+|kbd:[Ctrl+Shift+N]
+|New incognito window
+
+|kbd:[\ ]
+|Used to escape characters
+
+|kbd:[Ctrl+\]]
+|Jump to keyword
+
+|kbd:[Ctrl + +]
+|Increase zoom
+|===
+
+Quisque egestas diam in arcu cursus euismod.
+Commodo elit at imperdiet dui accumsan sit amet.
