@@ -13,7 +13,7 @@
 #   text -diff          Skip diffing these files when merging.
 #
 # Read more:
-# https://help.github.com/articles/dealing-with-line-endings
+# https://docs.github.com/en/get-started/getting-started-with-git/configuring-git-to-handle-line-endings
 
 # Git should figure out how to handle files that have not been declared below.
 *                       text=auto
