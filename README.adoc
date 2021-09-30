@@ -251,7 +251,7 @@ Consequat nisl vel pretium lectus quam id leo. Tristique senectus et netus et ma
 Nisi porta lorem mollis aliquam ut porttitor. Rutrum quisque non tellus orci ac.
 ****
 
-=== Example
+=== Example Blocks
 
 Nulla porttitor massa id neque aliquam vestibulum morbi blandit.
 Elit ut aliquam purus sit amet.
@@ -296,7 +296,7 @@ Did you see him repressing me?
 You saw him, Didn't you?
 ____
 
-=== Verse
+=== Verse Blocks
 Diam quam nulla porttitor massa id neque aliquam vestibulum.
 In mollis nunc sed id semper.
 Eget arcu dictum varius duis.
@@ -313,7 +313,7 @@ on silent haunches
 and then moves on.
 ____
 
-=== Source Code
+=== Source Code Blocks
 
 .The title of this fancy source code block.
 [source,html]
@@ -332,7 +332,7 @@ ____
 </html>
 ----
 
-=== Listing
+=== Listing Blocks
 Sed vulputate mi sit amet mauris commodo.
 Mus mauris vitae ultricies leo integer malesuada nunc.
 Duis ultricies lacus sed turpis tincidunt id aliquet risus.
@@ -345,7 +345,7 @@ Notice that the monospace marks are preserved in the output.
 Vitae turpis massa sed elementum tempus egestas sed sed risus.
 Felis donec et odio pellentesque diam volutpat commodo sed.
 
-=== Literal
+=== Literal Blocks
 Magna fermentum iaculis eu non.
 Non quam lacus suspendisse faucibus interdum posuere.
 In fermentum et sollicitudin ac.
@@ -406,7 +406,16 @@ Donec pretium vulputate sapien nec sagittis aliquam.
 Habitasse platea dictumst vestibulum rhoncus.
 Purus faucibus ornare suspendisse sed nisi lacus.
 
-=== Keyboard
+=== Buttons and Menu Items _(experimental)_
+Press the btn:[OK] button when you are finished
+
+Select a file in the file navigator and click btn:[Open].
+
+To save the file, select menu:File[Save].
+
+Select menu:View[Zoom > Reset] to reset the zoom level to the default setting.
+
+=== Keyboard Shortcuts _(experimental)_
 Quis commodo odio aenean sed adipiscing diam donec adipiscing tristique.
 In cursus turpis massa tincidunt dui ut ornare lectus sit.
 A diam maecenas sed enim ut sem viverra aliquet eget.

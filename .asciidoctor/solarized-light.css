@@ -1,0 +1,353 @@
+:root {
+    --color-foreground-0: var(--color-black-0);
+    --color-foreground-1: var(--color-black-1);
+    --color-foreground-grey-0: var(--color-dark-grey-0);
+    --color-foreground-grey-1: var(--color-dark-grey-1);
+    --color-background-grey-1: var(--color-light-grey-1);
+    --color-background-grey-0: var(--color-light-grey-0);
+    --color-background-1: var(--color-white-1);
+    --color-background-0: var(--color-white-0);
+}
+
+/*noinspection DuplicatedCode*/
+:root {
+    --color-admonition-background-note: var(--color-blue);
+    --color-admonition-background-tip: var(--color-green);
+    --color-admonition-background-important: var(--color-magenta);
+    --color-admonition-background-caution: var(--color-yellow);
+    --color-admonition-background-warning: var(--color-orange);
+    --color-admonition-foreground: var(--color-white-0);
+    
+    --color-keyboard-border: var(--color-foreground-grey-0);
+    
+    --color-link-foreground: var(--color-blue);
+    
+    --color-mark-background: var(--color-cyan);
+    --color-mark-foreground: var(--color-white-0);
+}
+
+/*noinspection DuplicatedCode*/
+:root {
+    --color-black-0: #002b36;
+    --color-black-1: #073642;
+    --color-dark-grey-0: #586e75;
+    --color-dark-grey-1: #657b83;
+    --color-light-grey-1: #839496;
+    --color-light-grey-0: #93a1a1;
+    --color-white-1: #eee8d5;
+    --color-white-0: #fdf6e3;
+    
+    --color-yellow: #b58900;
+    --color-orange: #cb4b16;
+    --color-red: #dc322f;
+    --color-magenta: #d33682;
+    --color-violet: #6c71c4;
+    --color-blue: #268bd2;
+    --color-cyan: #2aa198;
+    --color-green: #859900;
+}
+
+.article {
+    background-color: var(--color-background-0);
+    color: var(--color-foreground-0);
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 4em;
+    max-width: 48em;
+}
+
+strong {
+    font-weight: 900;
+}
+
+em {
+    font-weight: 300;
+    font-style: italic;
+}
+
+mark {
+    background-color: var(--color-mark-background);
+    color: var(--color-mark-foreground);
+}
+
+:not(pre) > code {
+    background-color: var(--color-background-1);
+    color: var(--color-foreground-1);
+    font-family: "Fira Code", monospace;
+}
+
+mark,
+:not(pre) > code,
+kbd {
+    padding: 0.25em 0.35em;
+}
+
+.line-through {
+    text-decoration: line-through;
+}
+
+.overline {
+    text-decoration: overline;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+a {
+    color: var(--color-link-foreground);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+kbd {
+    border: 1px solid var(--color-keyboard-border);
+    box-shadow: 0 0.15em var(--color-keyboard-border);
+    border-radius: 0.5em;
+    margin: 0 0.15em;
+}
+
+h1,
+h2,
+h3 {
+    margin-bottom: 0.5em;
+}
+
+h1 {
+    font-size: xxx-large;
+    font-style: italic;
+    font-weight: 900;
+}
+
+h2 {
+    font-size: xx-large;
+    font-weight: 700;
+    margin-top: 2em;
+}
+
+h3 {
+    font-size: x-large;
+    font-weight: 700;
+    margin-top: 1em;
+}
+
+.dlist .title,
+.ulist .title,
+.olist .title,
+.exampleblock > .title,
+.listingblock > .title,
+.literalblock > .title,
+.quoteblock > .title,
+.tableblock > .title,
+.verseblock > .title {
+    font-weight: 300;
+    font-style: italic;
+    padding-bottom: 0.5em;
+}
+
+.admonitionblock .title {
+    font-weight: 300;
+    font-style: italic;
+}
+
+.sidebarblock > .content > .title {
+    font-weight: 900;
+    font-style: italic;
+    font-size: large;
+    text-align: center;
+}
+
+.dlist > dl,
+.ulist > ul,
+.olist > ol {
+    margin: 0;
+}
+
+.dlist > dl > dd > p,
+.ulist > ul > li > p,
+.olist > ol > li > p {
+    margin: 0.25em;
+}
+
+.dlist dt,
+.dlist .title,
+.ulist .title,
+.olist .title {
+    margin-top: 1em;
+    margin-bottom: 0;
+}
+
+ul.checklist {
+    list-style-type: none;
+}
+
+.hdlist1 {
+    font-style: italic;
+    font-weight: 900;
+}
+
+.hdlist2 > p {
+    margin-left: 1em;
+}
+
+.imageblock {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+.imageblock > .title {
+    font-style: italic;
+    font-weight: 300;
+    margin-top: 0.5em;
+}
+
+.admonitionblock {
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+.admonitionblock > table {
+    width: 100%;
+}
+
+.admonitionblock.note td.content {
+    border: 2px solid var(--color-admonition-background-note);
+}
+
+.admonitionblock.note td.icon {
+    background-color: var(--color-admonition-background-note);
+}
+
+.admonitionblock.tip td.content {
+    border: 2px solid var(--color-admonition-background-tip);
+}
+
+.admonitionblock.tip td.icon {
+    background-color: var(--color-admonition-background-tip);
+}
+
+.admonitionblock.important td.content {
+    border: 2px solid var(--color-admonition-background-important);
+}
+
+.admonitionblock.important td.icon {
+    background-color: var(--color-admonition-background-important);
+}
+
+.admonitionblock.caution td.content {
+    border: 2px solid var(--color-admonition-background-caution);
+}
+
+.admonitionblock.caution td.icon {
+    background-color: var(--color-admonition-background-caution);
+}
+
+.admonitionblock.warning td.content {
+    border: 2px solid var(--color-admonition-background-warning);
+}
+
+.admonitionblock.warning td.icon {
+    background-color: var(--color-admonition-background-warning);
+}
+
+.admonitionblock td.icon {
+    border-radius: 1em 0;
+    padding: 0.25em 1em;
+    position: absolute;
+    transform: translate(-0.5em, -50%);
+}
+
+.admonitionblock td.icon i::after {
+    color: var(--color-admonition-foreground);
+    content: attr(title);
+    font-family: "Inter", sans-serif;
+    font-style: italic;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+.admonitionblock td.content,
+.exampleblock > .content,
+.listingblock > .content,
+.literalblock > .content,
+.quoteblock > blockquote,
+.verseblock > .content,
+.sidebarblock {
+    background-color: var(--color-background-1);
+    border-radius: 1em;
+    padding: 0.75em 1em;
+}
+
+.admonitionblock td.content {
+    padding-top: 1.5em;
+}
+
+.sidebarblock .admonitionblock td.content,
+.sidebarblock .exampleblock > .content,
+.sidebarblock .listingblock > .content,
+.sidebarblock .literalblock > .content,
+.sidebarblock .quoteblock > blockquote,
+.sidebarblock .verseblock > .content {
+    background-color: var(--color-background-0);
+}
+
+.quoteblock > blockquote {
+    color: var(--color-foreground-grey-0);
+    margin-top: 0;
+}
+
+.verseblock > .content {
+    color: var(--color-foreground-grey-0);
+    font-family: "Inter", sans-serif;
+    font-size: large;
+    margin-top: 0;
+}
+
+.exampleblock > .content > .paragraph > p,
+.listingblock > .content > pre,
+.literalblock > .content > pre,
+.quoteblock > blockquote > .paragraph > p {
+    margin: 0.5em;
+}
+
+.attribution {
+    color: var(--color-foreground-grey-0);
+    text-align: right;
+}
+
+i.conum + b {
+    user-select: none;
+}
+
+.colist > table {
+    margin-top: 1em;
+}
+
+.colist > table > thead > tr > th,
+.colist > table > tbody > tr > td {
+    background-color: var(--color-background-0);
+    margin: 0;
+    padding: 0.5em;
+}
+
+:not(.colist, .hdlist) > table > thead > tr,
+:not(.colist, .hdlist) > table > tbody > tr:nth-child(even) {
+    background-color: var(--color-background-1);
+}
+
+:not(.colist, .hdlist) > table > tbody > tr:nth-child(odd) {
+    background-color: var(--color-background-0);
+}
+
+table > thead > tr > th,
+table > tbody > tr > td > p {
+    margin: 0;
+    padding: 0.5em 1em;
+}
