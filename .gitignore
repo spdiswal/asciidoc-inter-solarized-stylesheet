@@ -17,7 +17,7 @@
 
 # Node.
 node_modules/
-.env
+*.local
 
 # Yarn.
 .yarn/*
