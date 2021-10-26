@@ -18,6 +18,7 @@
 # Node.
 node_modules/
 *.local
+*.local.*
 
 # Yarn.
 .yarn/*
