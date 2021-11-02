@@ -217,40 +217,20 @@ ul.checklist {
     width: 100%;
 }
 
-.admonitionblock.note td.content {
-    border: 2px solid var(--color-admonition-background-note);
-}
-
 .admonitionblock.note td.icon {
     background-color: var(--color-admonition-background-note);
-}
-
-.admonitionblock.tip td.content {
-    border: 2px solid var(--color-admonition-background-tip);
 }
 
 .admonitionblock.tip td.icon {
     background-color: var(--color-admonition-background-tip);
 }
 
-.admonitionblock.important td.content {
-    border: 2px solid var(--color-admonition-background-important);
-}
-
 .admonitionblock.important td.icon {
     background-color: var(--color-admonition-background-important);
 }
 
-.admonitionblock.caution td.content {
-    border: 2px solid var(--color-admonition-background-caution);
-}
-
 .admonitionblock.caution td.icon {
     background-color: var(--color-admonition-background-caution);
-}
-
-.admonitionblock.warning td.content {
-    border: 2px solid var(--color-admonition-background-warning);
 }
 
 .admonitionblock.warning td.icon {
@@ -258,7 +238,7 @@ ul.checklist {
 }
 
 .admonitionblock td.icon {
-    border-radius: 1em 0;
+    border-radius: 0.5em 0.5em;
     padding: 0.25em 1em;
     position: absolute;
     transform: translate(-0.5em, -50%);
@@ -269,7 +249,7 @@ ul.checklist {
     content: attr(title);
     font-family: "Inter", sans-serif;
     font-style: italic;
-    font-weight: 900;
+    font-weight: 700;
     text-transform: capitalize;
 }
 
