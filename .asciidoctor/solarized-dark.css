@@ -47,6 +47,8 @@
     --color-green: #859900;
 }
 
+/* The rules below are identical to the ones in `solarized-light.css` */
+
 .article {
     background-color: var(--color-background-0);
     color: var(--color-foreground-0);
@@ -71,16 +73,72 @@ mark {
     color: var(--color-mark-foreground);
 }
 
-:not(pre) > code {
-    background-color: var(--color-background-1);
+code {
     color: var(--color-foreground-1);
     font-family: "Fira Code", monospace;
 }
 
+kbd {
+    border: 1px solid var(--color-keyboard-border);
+    box-shadow: 0 0.15em var(--color-keyboard-border);
+    border-radius: 0.5em;
+    margin: 0 0.15em;
+}
+
 mark,
-:not(pre) > code,
+:not(pre.highlight) > code,
 kbd {
     padding: 0.25em 0.35em;
+}
+
+:not(.admonitionblock td.content):not(.exampleblock > .content):not(.listingblock > .content):not(.literalblock > .content):not(.quoteblock > blockquote):not(.sidebarblock > .content):not(.verseblock > .content) > .paragraph > p > code,
+:not(.admonitionblock td.content):not(.exampleblock > .content):not(.listingblock > .content):not(.literalblock > .content):not(.quoteblock > blockquote):not(.sidebarblock > .content):not(.verseblock > .content) > .ulist > ul > li > p > code,
+:not(.admonitionblock td.content):not(.exampleblock > .content):not(.listingblock > .content):not(.literalblock > .content):not(.quoteblock > blockquote):not(.sidebarblock > .content):not(.verseblock > .content) > .olist > ol > li > p > code,
+:not(.admonitionblock td.content):not(.exampleblock > .content):not(.listingblock > .content):not(.literalblock > .content):not(.quoteblock > blockquote):not(.sidebarblock > .content):not(.verseblock > .content) > .dlist > dl > dd > p > code,
+.sidebarblock .admonitionblock td.content code,
+.sidebarblock .exampleblock > .content > .paragraph > p > code,
+.sidebarblock .exampleblock > .content > .ulist > ul > li > p > code,
+.sidebarblock .exampleblock > .content > .olist > ul > li > p > code,
+.sidebarblock .exampleblock > .content > .dlist > dl > dd > p > code,
+.sidebarblock .listingblock > .content > .paragraph > p > code,
+.sidebarblock .listingblock > .content > .ulist > ul > li > p > code,
+.sidebarblock .listingblock > .content > .olist > ol > li > p > code,
+.sidebarblock .listingblock > .content > .dlist > dl > dd > p > code,
+.sidebarblock .literalblock > .content > .paragraph > p > code,
+.sidebarblock .literalblock > .content > .ulist > ul > li > p > code,
+.sidebarblock .literalblock > .content > .olist > ol > li > p > code,
+.sidebarblock .literalblock > .content > .dlist > dl > dd > p > code,
+.sidebarblock .quoteblock > blockquote > .paragraph > p > code,
+.sidebarblock .quoteblock > blockquote > .ulist > ul > li > p > code,
+.sidebarblock .quoteblock > blockquote > .olist > ol > li > p > code,
+.sidebarblock .quoteblock > blockquote > .dlist > dl > dd > p > code,
+.sidebarblock .verseblock > pre.content > code {
+    background-color: var(--color-background-1);
+}
+
+.admonitionblock td.content code,
+.exampleblock > .content > .paragraph > p > code,
+.exampleblock > .content > .ulist > ul > li > p > code,
+.exampleblock > .content > .olist > ol > li > p > code,
+.exampleblock > .content > .dlist > dl > dd > p > code,
+.listingblock > .content > .paragraph > p > code,
+.listingblock > .content > .ulist > ul > li > p > code,
+.listingblock > .content > .olist > ol > li > p > code,
+.listingblock > .content > .dlist > dl > dd > p > code,
+.literalblock > .content > .paragraph > p > code,
+.literalblock > .content > .ulist > ul > li > p > code,
+.literalblock > .content > .olist > ol > li > p > code,
+.literalblock > .content > .dlist > dl > dd > p > code,
+.sidebarblock > .content > .paragraph > p > code,
+.sidebarblock > .content > .ulist > ul > li > p > code,
+.sidebarblock > .content > .olist > ol > li > p > code,
+.sidebarblock > .content > .dlist > dl > dd > p > code,
+.quoteblock > blockquote > .paragraph > p > code,
+.quoteblock > blockquote > .ulist > ul > li > p > code,
+.quoteblock > blockquote > .olist > ol > li > p > code,
+.quoteblock > blockquote > .dlist > dl > dd > p > code,
+.verseblock > pre.content > code {
+    background-color: var(--color-background-0);
 }
 
 .line-through {
@@ -102,13 +160,6 @@ a {
 
 a:hover {
     text-decoration: underline;
-}
-
-kbd {
-    border: 1px solid var(--color-keyboard-border);
-    box-shadow: 0 0.15em var(--color-keyboard-border);
-    border-radius: 0.5em;
-    margin: 0 0.15em;
 }
 
 h1,
@@ -244,7 +295,8 @@ ul.checklist {
     transform: translate(-0.5em, -50%);
 }
 
-.admonitionblock td.icon i::after {
+.admonitionblock td.icon i::after,
+.admonitionblock td.icon div.title {
     color: var(--color-admonition-foreground);
     content: attr(title);
     font-family: "Inter", sans-serif;

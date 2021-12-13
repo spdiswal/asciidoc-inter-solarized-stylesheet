@@ -49,7 +49,7 @@ Odio facilisis mauris sit amet massa vitae.
 *** Reflection pool
 ** Secret exit
 
-* Untracked file in git repository
+* Untracked file in `git` repository
 
 '''
 
@@ -71,7 +71,7 @@ Tortor at risus viverra adipiscing at in tellus integer.
 
 . Step 1
 . Step 2
-.. Step 2a
+.. Step `2a`
 .. Step 2b
 . Step 3
 
@@ -89,7 +89,7 @@ Non odio euismod lacinia at quis risus sed vulputate.
 
 CPU:: The brain of the computer.
 Hard drive:: Permanent storage for operating system and/or user files.
-RAM:: Temporarily stores information the CPU uses during operation.
+RAM:: Temporarily stores information the `CPU` uses during operation.
 Keyboard:: Used to enter text or control items on the screen.
 Mouse:: Used to point to and select items on your computer screen.
 Monitor:: Displays information in visual form using text and graphics.
@@ -101,7 +101,7 @@ Convallis tellus id interdum velit laoreet id donec.
 [horizontal]
 CPU:: The brain of the computer.
 Hard drive:: Permanent storage for operating system and/or user files.
-RAM:: Temporarily stores information the CPU uses during operation.
+RAM:: Temporarily stores information the `CPU` uses during operation.
 
 Enim nec dui nunc mattis enim.
 Placerat in egestas erat imperdiet sed euismod nisi porta.
@@ -155,7 +155,7 @@ The hail-and-rainbow protocol can be initiated at five levels:
 . doublefootnote:[The double hail-and-rainbow level makes my toes tingle.]
 . tertiary
 . supernumerary
-. supermassive
+. `supermassive`
 . apocalyptic
 
 A bold statement!footnote:disclaimer[Opinions are my own.]
@@ -174,15 +174,15 @@ TIP: Tincidunt id aliquet risus feugiat.
 [IMPORTANT]
 .Feeding the Werewolves
 ====
-While werewolves are hardy community members, keep in mind the following dietary concerns:
+While werewolves are hardy community `members`, keep in mind the following dietary concerns:
 
 . They are allergic to cinnamon.
-. More than two glasses of orange juice in 24 hours makes them howl in harmony with alarms and sirens.
+. More than two glasses of orange juice in `24 hours` makes them howl in harmony with alarms and sirens.
 . Celery makes them sad.
 ====
 
 CAUTION: Vel pharetra vel turpis nunc eget.
-Ac turpis egestas sed tempus urna.
+Ac turpis `egestas` sed tempus urna.
 
 WARNING: Wolpertingers are known to nest in server racks.
 Enter at your own risk.
@@ -208,9 +208,9 @@ Elementum nisi quis eleifend quam.
 ****
 Sidebars are used to visually separate auxiliary bits of content that supplement the main text.
 
-TIP: They can contain any type of content.
+TIP: They can contain `any` type of content.
 
-Nunc mi ipsum faucibus vitae aliquet nec ullamcorper. Cras sed felis eget velit aliquet sagittis id consectetur purus.
+Nunc mi ipsum faucibus vitae aliquet nec ullamcorper. Cras sed `felis eget` velit aliquet sagittis id consectetur purus.
 
 .Source code block in a sidebar
 [source,js]
@@ -219,7 +219,7 @@ const greeting = "Hello, World!"
 console.log(greeting)
 ----
 
-Magna etiam tempor orci eu lobortis elementum nibh tellus molestie. Mattis pellentesque id nibh tortor id aliquet. Ac placerat vestibulum lectus mauris ultrices eros in cursus turpis.
+Magna etiam tempor orci eu lobortis elementum nibh tellus molestie. Mattis #pellentesque# id nibh tortor id aliquet. Ac placerat vestibulum lectus mauris ultrices eros in cursus turpis.
 
 [quote,Walter White]
 Say my name!
@@ -228,7 +228,7 @@ Donec ultrices tincidunt arcu non sodales neque sodales ut. Mattis enim ut tellu
 
 [verse,Kim Larsen,Jutlandia]
 ____
-Hey, ho! For Jutlandia!
+Hey, ho! For `Jutlandia`!
 ____
 
 Lacinia quis vel eros donec ac odio. Viverra maecenas accumsan lacus vel. Sed tempus urna et pharetra pharetra. Accumsan sit amet nulla facilisi morbi tempus iaculis urna.
@@ -258,7 +258,7 @@ Elit ut aliquam purus sit amet.
 
 .Onomatopoeia
 ====
-The book hit the floor with a *thud*.
+The book hit the `floor` with a *thud*.
 
 He could hear doves *cooing* in the pine trees`' branches.
 ====
@@ -288,7 +288,7 @@ I'm being repressed!
 
 King Arthur: Bloody peasant!
 
-Dennis: Oh, what a giveaway!
+Dennis: Oh, what a `giveaway`!
 Did you hear that?
 Did you hear that, eh?
 That's what I'm on about!
@@ -309,7 +309,7 @@ on little cat feet.
 
 It sits looking
 over harbor and city
-on silent haunches
+on `silent` haunches
 and then moves on.
 ____
 
