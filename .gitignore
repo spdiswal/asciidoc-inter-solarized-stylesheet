@@ -1,4 +1,5 @@
-# This file, .gitignore, marks certain files as excluded from version control.
+# This file, .gitignore, marks certain files and folders as excluded from
+# version control.
 #
 # Read more:
 # https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
@@ -28,6 +29,9 @@ node_modules/
 !.yarn/releases/
 !.yarn/sdks/
 !.yarn/versions/
+
+# TypeScript.
+*.tsbuildinfo
 
 # Build artifacts.
 build/
