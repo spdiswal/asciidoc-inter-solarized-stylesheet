@@ -179,6 +179,28 @@ While werewolves are hardy community `members`, keep in mind the following dieta
 . They are allergic to cinnamon.
 . More than two glasses of orange juice in `24 hours` makes them howl in harmony with alarms and sirens.
 . Celery makes them sad.
+
+Lacus sed turpis tincidunt id aliquet risus.
+
+.Source code block in an admonition block
+[source,properties]
+----
+LETS_CELEBRATE=true
+----
+
+Lacus viverra vitae congue eu consequat ac felis.
+Faucibus ornare suspendisse sed nisi lacus sed viverra.
+
+[quote,Albert Einstein]
+Strive not to be a success, but rather to be of value.
+
+Donec ultrices tincidunt arcu non sodales neque sodales ut. Mattis enim ut tellus elementum sagittis vitae et leo. Augue interdum velit euismod in pellentesque.
+
+[verse,Van Halen,Jump]
+____
+I get up!
+And nothin' gets me down!
+____
 ====
 
 CAUTION: Vel pharetra vel turpis nunc eget.
@@ -186,10 +208,6 @@ Ac turpis `egestas` sed tempus urna.
 
 WARNING: Wolpertingers are known to nest in server racks.
 Enter at your own risk.
-
-Lacus sed turpis tincidunt id aliquet risus.
-Lacus viverra vitae congue eu consequat ac felis.
-Faucibus ornare suspendisse sed nisi lacus sed viverra.
 
 == Blocks
 

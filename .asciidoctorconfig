@@ -1,4 +1,3 @@
 :experimental:
-:icons: font
 :stylesdir: {asciidoctorconfigdir}/.asciidoctor/
 :stylesheet: solarized-light.css

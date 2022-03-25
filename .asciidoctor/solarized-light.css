@@ -88,6 +88,7 @@ kbd {
 mark,
 :not(pre.highlight) > code,
 kbd {
+    line-height: 1.75;
     padding: 0.25em 0.35em;
 }
 
@@ -321,6 +322,11 @@ ul.checklist {
     padding-top: 1.5em;
 }
 
+.admonitionblock td.content > .exampleblock > .content,
+.admonitionblock td.content > .listingblock > .content,
+.admonitionblock td.content > .literalblock > .content,
+.admonitionblock td.content > .quoteblock > blockquote,
+.admonitionblock td.content > .verseblock > .content,
 .sidebarblock .admonitionblock td.content,
 .sidebarblock .exampleblock > .content,
 .sidebarblock .listingblock > .content,
