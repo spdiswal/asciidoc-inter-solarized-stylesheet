@@ -194,7 +194,9 @@ Faucibus ornare suspendisse sed nisi lacus sed viverra.
 [quote,Albert Einstein]
 Strive not to be a success, but rather to be of value.
 
-Donec ultrices tincidunt arcu non sodales neque sodales ut. Mattis enim ut tellus elementum sagittis vitae et leo. Augue interdum velit euismod in pellentesque.
+Donec ultrices tincidunt arcu non sodales neque sodales ut.
+Mattis enim ut tellus elementum sagittis vitae et leo.
+Augue interdum velit euismod in pellentesque.
 
 [verse,Van Halen,Jump]
 ____
@@ -228,7 +230,8 @@ Sidebars are used to visually separate auxiliary bits of content that supplement
 
 TIP: They can contain `any` type of content.
 
-Nunc mi ipsum faucibus vitae aliquet nec ullamcorper. Cras sed `felis eget` velit aliquet sagittis id consectetur purus.
+Nunc mi ipsum faucibus vitae aliquet nec ullamcorper.
+Cras sed `felis eget` velit aliquet sagittis id consectetur purus.
 
 .Source code block in a sidebar
 [source,js]
@@ -237,19 +240,26 @@ const greeting = "Hello, World!"
 console.log(greeting)
 ----
 
-Magna etiam tempor orci eu lobortis elementum nibh tellus molestie. Mattis #pellentesque# id nibh tortor id aliquet. Ac placerat vestibulum lectus mauris ultrices eros in cursus turpis.
+Magna etiam tempor orci eu lobortis elementum nibh tellus molestie.
+Mattis #pellentesque# id nibh tortor id aliquet.
+Ac placerat vestibulum lectus mauris ultrices eros in cursus turpis.
 
 [quote,Walter White]
 Say my name!
 
-Donec ultrices tincidunt arcu non sodales neque sodales ut. Mattis enim ut tellus elementum sagittis vitae et leo. Augue interdum velit euismod in pellentesque.
+Donec ultrices tincidunt arcu non sodales neque sodales ut.
+Mattis enim ut tellus elementum sagittis vitae et leo.
+Augue interdum velit euismod in pellentesque.
 
 [verse,Kim Larsen,Jutlandia]
 ____
 Hey, ho! For `Jutlandia`!
 ____
 
-Lacinia quis vel eros donec ac odio. Viverra maecenas accumsan lacus vel. Sed tempus urna et pharetra pharetra. Accumsan sit amet nulla facilisi morbi tempus iaculis urna.
+Lacinia quis vel eros donec ac odio.
+Viverra maecenas accumsan lacus vel.
+Sed tempus urna et pharetra pharetra.
+Accumsan sit amet nulla facilisi morbi tempus iaculis urna.
 
 |===
 |Header 1 |Header 2
@@ -264,9 +274,12 @@ Lacinia quis vel eros donec ac odio. Viverra maecenas accumsan lacus vel. Sed te
 |Column 2, row 3
 |===
 
-Consequat nisl vel pretium lectus quam id leo. Tristique senectus et netus et malesuada fames ac turpis. Dolor sed viverra ipsum nunc aliquet bibendum enim.
+Consequat nisl vel pretium lectus quam id leo.
+Tristique senectus et netus et malesuada fames ac turpis.
+Dolor sed viverra ipsum nunc aliquet bibendum enim.
 
-Nisi porta lorem mollis aliquam ut porttitor. Rutrum quisque non tellus orci ac.
+Nisi porta lorem mollis aliquam ut porttitor.
+Rutrum quisque non tellus orci ac.
 ****
 
 === Example Blocks
