@@ -5,23 +5,23 @@
 # https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
 
 # Editors and IDEs.
-.idea/
+.idea/*
+!.idea/runConfigurations/
 .vscode/
 
 # AsciiDoctor in IntelliJ IDEA.
-#.asciidoctor/
-#.asciidoctorconfig
+.asciidoctor/
+.asciidoctorconfig
 
-# Gradle.
-.gradle/
-!gradle-wrapper.jar
-
-# Node.
-node_modules/
+# Local configuration.
 *.local
 *.local.*
 
-# Yarn.
+# Dependency management (Gradle).
+.gradle/
+!gradle-wrapper.jar
+
+# Dependency management (Node.js).
 .yarn/*
 !.yarn/cache/
 !.yarn/patches/
@@ -29,15 +29,17 @@ node_modules/
 !.yarn/releases/
 !.yarn/sdks/
 !.yarn/versions/
-
-# TypeScript.
-*.tsbuildinfo
+node_modules/
 
 # Build artifacts.
 build/
 out/
 dist/
 *.log
+
+# Build artifacts (Node.js).
+.eslintcache
+*.tsbuildinfo
 
 # Operating system artifacts.
 *~
